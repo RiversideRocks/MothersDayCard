@@ -1,0 +1,54 @@
+body {
+  font-family: "Jost", sans-serif;
+  background-color: #e5e5e5;
+}
+
+div.intro {
+  width: 75%;
+  padding: 10px;
+  border: 2px dashed #000;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  background-color: pink;
+}
+
+div.about {
+  width: 85%;
+  padding: 10px;
+  border: 2px dashed #000;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  background-color: pink;
+}
+
+div.all {
+  width: 100%;
+  height: 100%;
+}
+
+div.about-text {
+  width: 75%;
+}
+
+button.theme {
+  border-radius: 12px;
+  background-color: blue;
+  color: yellow;
+}
+
+input[type="submit"] {
+  border-radius: 12px;
+  background-color: #bbbbf2;
+  color: #212ba7;
+  border: 4px solid currentColor;
+  text-decoration: none;
+  padding: 15px 32px;
+  font-size: inherit;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
